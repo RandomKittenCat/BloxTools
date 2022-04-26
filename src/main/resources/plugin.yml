@@ -9,3 +9,9 @@ commands:
   btinfo:
     description: Some description about the plugin.
     usage: /<command>
+    permission: bloxtools.info
+  flowerbadge:
+    description: Gives someone a cool sunflower badge!
+    usage: /<command>
+    permission: bloxtools.flowerbadge
+    permission-message: You don't have permissions!

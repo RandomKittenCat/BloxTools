@@ -1,5 +1,6 @@
 package me.mrbloxman43.bloxtools;
 
+import me.mrbloxman43.bloxtools.commands.BadgeCommand;
 import me.mrbloxman43.bloxtools.commands.InfoCommand;
 import me.mrbloxman43.bloxtools.listeners.PlayerJoinLeaveListener;
 import org.bukkit.ChatColor;
@@ -23,6 +24,7 @@ public final class BloxTools extends JavaPlugin implements Listener {
 
         getServer().getPluginManager().registerEvents(new PlayerJoinLeaveListener(), this);
         Objects.requireNonNull(getCommand("btinfo")).setExecutor(new InfoCommand());
+        Objects.requireNonNull(getCommand("flowerbadge")).setExecutor(new BadgeCommand());
     }
 
     @Override
