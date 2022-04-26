@@ -1,0 +1,11 @@
+name: BloxTools
+version: '${project.version}'
+main: me.mrbloxman43.bloxtools.BloxTools
+api-version: 1.18
+authors: [ MrBloxMan43, cats585 ]
+description: Plugin to help your minecraft server with some basic addons like essentials!
+website: https://github.com/RandomKittenCat/BloxTools
+commands:
+  btinfo:
+    description: Some description about the plugin.
+    usage: /<command>
