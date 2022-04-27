@@ -28,8 +28,12 @@ public class BadgeCommand implements CommandExecutor {
                 im.setDisplayName(ChatColor.GREEN + "Badge");
                 // Creating lore arraylist
                 ArrayList<String> lore = new ArrayList<>();
+                // Split String
+                String[] arrOfStr = sender.toString().split("=");
+                // Remove last char
+                String newstr = arrOfStr[1].substring(0, arrOfStr[1].length() - 1);
                 // Add lore
-                lore.add(ChatColor.GREEN + "" + "Special badge from a " + ChatColor.RESET + "" + ChatColor.DARK_RED + "" + ChatColor.BOLD + "cool person");
+                lore.add(ChatColor.GREEN + "" + "Special badge from " + ChatColor.RESET + "" + ChatColor.YELLOW + "" + ChatColor.BOLD + newstr);
                 // Set the lore
                 im.setLore(lore);
                 //Set item meta
@@ -38,6 +42,10 @@ public class BadgeCommand implements CommandExecutor {
                 sunflower.setAmount(1);
                 // Give the player the items
                 player.getInventory().addItem(sunflower);
+                // test
+                System.out.println(newstr);
+
+                //flowerbadge MrBloxMan43
 
         }
 
