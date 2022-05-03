@@ -17,7 +17,7 @@ public class InfoCommand implements CommandExecutor {
 
             if (sender instanceof Player p){
 
-                p.sendMessage(ChatColor.RED + "The BloxTools plugin is made and maintained by MrBloxMan43, you can view the source of this code here: https://github.com/RandomKittenCat/BloxTools");
+                p.sendMessage(ChatColor.RED + "The BloxTools plugin is made and maintained by MrBloxMan43, you can view the source of the code here: https://github.com/RandomKittenCat/BloxTools");
 
             }
 

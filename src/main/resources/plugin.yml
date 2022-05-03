@@ -10,6 +10,7 @@ commands:
     description: Some description about the plugin.
     usage: /<command>
     permission: bloxtools.info
+    permission-message: You don't have permission!
   flowerbadge:
     description: Gives someone a cool sunflower badge!
     usage: /<command>
