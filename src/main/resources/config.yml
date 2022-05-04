@@ -1,0 +1,13 @@
+# If you accidentally delete or remove anything you can find the default config here
+# https://github.com/RandomKittenCat/BloxTools/blob/main/src/main/resources/config.yml
+
+
+
+# Set the message you recieve when you do /feed
+FeedYourselfMessage: 'You fed yourself, your hunger bars are full!'
+# Set the message the target player recieves when you do /feed [target]
+PlayerWasFedMessage: 'You have been fed.'
+# Set the message you recieve when you do /heal
+HealYourselfMessage: 'You healed yourself, you now have full hearts!'
+# Set the message the target player recieves when you do /heal [target]
+PlayerWasHealedMessage: 'You have been healed.'

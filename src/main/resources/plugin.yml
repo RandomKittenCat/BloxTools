@@ -15,4 +15,14 @@ commands:
     description: Gives someone a cool sunflower badge!
     usage: /<command>
     permission: bloxtools.flowerbadge
-    permission-message: You don't have permissions!
+    permission-message: You don't have permission!
+  feed:
+    description: Gives yourself full hunger bars
+    usage: /<command>
+    permission: bloxtools.feed
+    permission-message: You don't have permission!
+  heal:
+    description: Gives you back full hearts
+    usage: /<command>
+    permission: bloxtools.heal
+    permission-message: You don't have permission!
