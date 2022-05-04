@@ -20,40 +20,25 @@ public class FeedCommand implements CommandExecutor {
 
         String FeedYourselfMsg = plugin.getConfig().getString("FeedYourselfMessage");
         String PlayerWasFedMsg = plugin.getConfig().getString("PlayerWasFedMessage");
-
         if(sender instanceof Player player){
-
 
             if(args.length == 0) {
 
                 player.setFoodLevel(20);
                 player.sendMessage(ChatColor.YELLOW + "" + ChatColor.BOLD + FeedYourselfMsg);
             }else{
-
                 String playerName = args[0];
-
                 Player target = Bukkit.getServer().getPlayerExact(playerName);
 
                 if(target == null) {
                     player.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "That player is not online.");
                 }else{
-
                     target.setFoodLevel(20);
                     target.sendMessage(ChatColor.YELLOW + "" + ChatColor.BOLD + PlayerWasFedMsg);
-                    player.sendMessage(ChatColor.YELLOW + "" + ChatColor.BOLD + "You have successfully fed " + target.getDisplayName() + ".");
-
-
+                    player.sendMessage(ChatColor.YELLOW + "" + ChatColor.BOLD + "You have successfully fed " + target.getDisplayName() + ChatColor.YELLOW + "" + ChatColor.BOLD + ".");
                 }
-
-
-
-
             }
-
-
         }
-
-
         return true;
     }
 }

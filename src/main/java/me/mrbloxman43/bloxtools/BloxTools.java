@@ -1,9 +1,6 @@
 package me.mrbloxman43.bloxtools;
 
-import me.mrbloxman43.bloxtools.commands.BadgeCommand;
-import me.mrbloxman43.bloxtools.commands.FeedCommand;
-import me.mrbloxman43.bloxtools.commands.HealCommand;
-import me.mrbloxman43.bloxtools.commands.InfoCommand;
+import me.mrbloxman43.bloxtools.commands.*;
 import me.mrbloxman43.bloxtools.listeners.PlayerJoinLeaveListener;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -32,6 +29,7 @@ public final class BloxTools extends JavaPlugin implements Listener {
         Objects.requireNonNull(getCommand("flowerbadge")).setExecutor(new BadgeCommand());
         Objects.requireNonNull(getCommand("feed")).setExecutor(new FeedCommand());
         Objects.requireNonNull(getCommand("heal")).setExecutor(new HealCommand());
+        Objects.requireNonNull(getCommand("kill")).setExecutor(new KillCommand());
     }
 
     @Override

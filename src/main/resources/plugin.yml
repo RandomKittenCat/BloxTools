@@ -14,15 +14,24 @@ commands:
   flowerbadge:
     description: Gives someone a cool sunflower badge!
     usage: /<command>
+    aliases: [sunflowerbadge, badge, fbadge]
     permission: bloxtools.flowerbadge
     permission-message: You don't have permission!
   feed:
-    description: Gives yourself full hunger bars
-    usage: /<command>
+    description: Gives yourself or others full hunger bars
+    usage: /<command> [player]
+    aliases: [btfeed]
     permission: bloxtools.feed
     permission-message: You don't have permission!
   heal:
-    description: Gives you back full hearts
-    usage: /<command>
+    description: Gives you or others back full hearts
+    usage: /<command> [player]
+    aliases: [btheal]
     permission: bloxtools.heal
+    permission-message: You don't have permission!
+  kill:
+    description: Kills the given player
+    usage: /<command> {player}
+    aliases: [btkill]
+    permission: bloxtools.kill
     permission-message: You don't have permission!
