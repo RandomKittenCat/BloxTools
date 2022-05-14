@@ -17,8 +17,6 @@ public class KillCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String label,@Nonnull String[] args) {
-
-
         if(sender instanceof Player player){
             if(args.length == 0){
                 player.sendMessage(ChatColor.RED + "You need to specify which player to kill, /kill {player}");

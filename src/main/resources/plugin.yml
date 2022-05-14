@@ -35,3 +35,8 @@ commands:
     aliases: [btkill]
     permission: bloxtools.kill
     permission-message: You don't have permission!
+  btmenu:
+    description: Displays a menu on screen
+    usage: /<command>
+    permission:  bloxtools.menu
+    permission-message: You don't have permission!

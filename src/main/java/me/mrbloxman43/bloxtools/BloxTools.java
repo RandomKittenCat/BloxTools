@@ -1,6 +1,7 @@
 package me.mrbloxman43.bloxtools;
 
 import me.mrbloxman43.bloxtools.commands.*;
+import me.mrbloxman43.bloxtools.listeners.MenuListener;
 import me.mrbloxman43.bloxtools.listeners.PlayerJoinLeaveListener;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -22,6 +23,7 @@ public final class BloxTools extends JavaPlugin implements Listener {
         System.out.println("BloxTools has started.");
 
         getServer().getPluginManager().registerEvents(new PlayerJoinLeaveListener(), this);
+        getServer().getPluginManager().registerEvents(new MenuListener(), this);
         getConfig().options().copyDefaults();
         saveDefaultConfig();
 
@@ -30,6 +32,7 @@ public final class BloxTools extends JavaPlugin implements Listener {
         Objects.requireNonNull(getCommand("feed")).setExecutor(new FeedCommand());
         Objects.requireNonNull(getCommand("heal")).setExecutor(new HealCommand());
         Objects.requireNonNull(getCommand("kill")).setExecutor(new KillCommand());
+        Objects.requireNonNull(getCommand("btmenu")).setExecutor(new MenuCommand());
     }
 
     @Override
