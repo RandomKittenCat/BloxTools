@@ -9,10 +9,31 @@ commands:
   btinfo:
     description: Source code link and maintain information
     usage: /<command>
-    permission: bloxtools.info
-    permission-message: You don't have access to this command!
   heal:
     description: Heal a players hearts to full
     usage: /<command> [player]
     permission: bloxtools.heal
+    permission-message: You don't have access to this command!
+  gmc:
+    description: Set gamemode to creative
+    usage: /<command> [player]
+    permission: bloxtools.creative
+    permission-message: You don't have access to this command!
+    aliases: [creative, gmcreative, gm1]
+  gms:
+    description: Set gamemode to survival
+    usage: /<command> [player]
+    permission: bloxtools.survival
+    permission-message: You don't have access to this command!
+    aliases: [survival, gmsurvival, gm2]
+  gmsp:
+    description: Set gamemode to spectator
+    usage: /<command> [player]
+    permission: bloxtools.spectator
+    permission-message: You don't have access to this command!
+    aliases: [spectator, gmspectator, gm3]
+  kill:
+    description: Kills the player specified
+    usage: /<command> [player]
+    permission: bloxtools.kill
     permission-message: You don't have access to this command!

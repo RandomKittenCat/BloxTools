@@ -1,8 +1,6 @@
 package me.mrbloxman.bloxtools;
 
-import me.mrbloxman.bloxtools.commands.btinfo;
-import me.mrbloxman.bloxtools.commands.gmc;
-import me.mrbloxman.bloxtools.commands.heal;
+import me.mrbloxman.bloxtools.commands.*;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
@@ -18,6 +16,9 @@ public final class BloxTools extends JavaPlugin {
         Objects.requireNonNull(getCommand("btinfo")).setExecutor(new btinfo());
         Objects.requireNonNull(getCommand("heal")).setExecutor(new heal());
         Objects.requireNonNull(getCommand("gmc")).setExecutor(new gmc());
+        Objects.requireNonNull(getCommand("gms")).setExecutor(new gms());
+        Objects.requireNonNull(getCommand("gmsp")).setExecutor(new gmsp());
+        Objects.requireNonNull(getCommand("kill")).setExecutor(new kill());
     }
 
     @Override

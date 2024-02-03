@@ -6,8 +6,9 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   ----------------------------------------------------------------------------------------
 
   > `/btinfo` info on the plugin! <br />
-  > `/flowerbadge` gets you a cool flower badge <br />
   > `/feed` fills your hunger to full <br />
   > `/heal` gives back your hearts <br />
-  > `/kill` kills a player specified <br />
-  > `/gmc` faster way into creative 
+  > `/gmc` set gamemode to creative  <br />
+  > `/gms` set gamemode to survival <br />
+  > `/gmsp` set gamemode to spectator <br />
+  > `/kill` kills a player specified
