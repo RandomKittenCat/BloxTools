@@ -1,3 +1,7 @@
 me\mrbloxman\bloxtools\BloxTools.class
-me\mrbloxman\bloxtools\commands\btinfo.class
+me\mrbloxman\bloxtools\commands\gmc.class
 me\mrbloxman\bloxtools\commands\heal.class
+me\mrbloxman\bloxtools\commands\gms.class
+me\mrbloxman\bloxtools\commands\gmsp.class
+me\mrbloxman\bloxtools\commands\kill.class
+me\mrbloxman\bloxtools\commands\btinfo.class

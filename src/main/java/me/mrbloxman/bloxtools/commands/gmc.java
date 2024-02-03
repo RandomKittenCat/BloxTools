@@ -22,10 +22,10 @@ public class gmc implements CommandExecutor {
                Player target = Bukkit.getServer().getPlayerExact(playerName);
 
                if (target == null){
-                   p.sendMessage(ChatColor.RED + "This player is not online.");
+                   p.sendMessage(ChatColor.RED + "This player is not online");
                }else{
-                   target.sendMessage(ChatColor.YELLOW + "Your gamemode has been set to creative by another player.");
-                   p.sendMessage(ChatColor.YELLOW + "Their gamemode has been successfully set.");
+                   target.sendMessage(ChatColor.YELLOW + "Your gamemode has been set to creative by another player");
+                   p.sendMessage(ChatColor.YELLOW + "Their gamemode has been successfully set");
                    target.setGameMode(GameMode.CREATIVE);
                }
            }

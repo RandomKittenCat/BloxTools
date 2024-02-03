@@ -28,7 +28,7 @@ public class heal implements CommandExecutor {
                 }else{
                     target.setHealth(20);
                     target.sendMessage(ChatColor.YELLOW + "You have been healed by another player.");
-                    p.sendMessage(ChatColor.YELLOW + "" + ChatColor.BOLD + "You have successfully healed " + target.getDisplayName() + ".");
+                    p.sendMessage(ChatColor.YELLOW + "" + "You have successfully healed " + target.getDisplayName() + ".");
                 }
             }
         }
