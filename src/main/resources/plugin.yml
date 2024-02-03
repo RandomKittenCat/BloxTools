@@ -1,0 +1,16 @@
+name: BloxTools
+version: '${project.version}'
+main: me.mrbloxman.bloxtools.BloxTools
+api-version: '1.20'
+website: https://github.com/RandomKittenCat/BloxTools
+authors: [ MrBloxMan, cats585 ]
+description: Useful plugin to give you access to various commands ingame
+commands:
+  btinfo:
+    description: Source code link and maintain information
+    usage: /<command>
+  heal:
+    description: Heal a players hearts to full
+    usage: /<command> [player]
+    permission: bloxtools.heal
+    permission-message: You don't have access to this command!
