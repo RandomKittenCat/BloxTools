@@ -22,7 +22,7 @@ public class kill implements CommandExecutor {
                 Player target = Bukkit.getServer().getPlayerExact(playerName);
 
                 if (target == null){
-                    p.sendMessage(ChatColor.RED + "This player is not online");
+                    p.sendMessage(ChatColor.RED + "The player you specified is not online");
                 }else {
                     target.setHealth(0);
                     p.sendMessage(ChatColor.YELLOW + "Successfully killed " + target.getDisplayName());

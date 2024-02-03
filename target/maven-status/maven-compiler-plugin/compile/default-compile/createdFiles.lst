@@ -5,3 +5,4 @@ me\mrbloxman\bloxtools\commands\gms.class
 me\mrbloxman\bloxtools\commands\gmsp.class
 me\mrbloxman\bloxtools\commands\kill.class
 me\mrbloxman\bloxtools\commands\btinfo.class
+me\mrbloxman\bloxtools\commands\feed.class

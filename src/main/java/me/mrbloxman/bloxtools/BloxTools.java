@@ -19,6 +19,7 @@ public final class BloxTools extends JavaPlugin {
         Objects.requireNonNull(getCommand("gms")).setExecutor(new gms());
         Objects.requireNonNull(getCommand("gmsp")).setExecutor(new gmsp());
         Objects.requireNonNull(getCommand("kill")).setExecutor(new kill());
+        Objects.requireNonNull(getCommand("feed")).setExecutor(new feed());
     }
 
     @Override

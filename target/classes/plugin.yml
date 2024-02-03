@@ -37,3 +37,8 @@ commands:
     usage: /<command> [player]
     permission: bloxtools.kill
     permission-message: You don't have access to this command!
+  feed:
+    description: Restores a players hunger bar
+    usage: /<command> [player]
+    permission: bloxtools.feed
+    permission-message: You don't have access to this command!
