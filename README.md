@@ -11,4 +11,6 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   > `/gmc` set gamemode to creative  <br />
   > `/gms` set gamemode to survival <br />
   > `/gmsp` set gamemode to spectator <br />
-  > `/kill` kills a player specified
+  > `/kill` kills a player specified <br />
+  > `/time` sets the time of the world <br />
+  > `/weather` sets the weather of the world <br />
