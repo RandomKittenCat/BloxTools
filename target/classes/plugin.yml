@@ -3,7 +3,7 @@ version: '1.0-SNAPSHOT'
 main: me.mrbloxman.bloxtools.BloxTools
 api-version: '1.20'
 website: https://github.com/RandomKittenCat/BloxTools
-authors: [ MrBloxMan, cats585 ]
+authors: [ MrBloxMan, cats585, RandomKittenCat ]
 description: Useful plugin to give you access to various commands ingame
 commands:
   btinfo:
@@ -46,4 +46,9 @@ commands:
     description: Sets the weather of the world
     usage: /<command> [weathertype]
     permission: bloxtools.weather
+    permission-message: You don't have access to this command!
+  time:
+    description: Set the time of the world
+    usage: /<command> [time]
+    permission: bloxtools.time
     permission-message: You don't have access to this command!

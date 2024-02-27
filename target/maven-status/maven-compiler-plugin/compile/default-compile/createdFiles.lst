@@ -7,3 +7,4 @@ me\mrbloxman\bloxtools\commands\kill.class
 me\mrbloxman\bloxtools\commands\btinfo.class
 me\mrbloxman\bloxtools\commands\feed.class
 me\mrbloxman\bloxtools\commands\weather.class
+me\mrbloxman\bloxtools\commands\time.class
