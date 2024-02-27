@@ -16,7 +16,6 @@ public class heal implements CommandExecutor {
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
         if (sender instanceof Player p) {
-
             if (args.length == 0){
                 p.setHealth(20);
                 p.sendMessage(ChatColor.YELLOW + "You have healed yourself.");
