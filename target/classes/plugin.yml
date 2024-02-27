@@ -42,3 +42,8 @@ commands:
     usage: /<command> [player]
     permission: bloxtools.feed
     permission-message: You don't have access to this command!
+  weather:
+    description: Sets the weather of the world
+    usage: /<command> [weathertype]
+    permission: bloxtools.weather
+    permission-message: You don't have access to this command!

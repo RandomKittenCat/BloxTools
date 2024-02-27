@@ -26,7 +26,7 @@ public class feed implements CommandExecutor {
                 }else{
                     target.setFoodLevel(20);
                     target.sendMessage(ChatColor.YELLOW + "Your hunger has been restored by another player");
-                    p.sendMessage(ChatColor.YELLOW + "Sucessfully restored " + target.getDisplayName() + "'s hunger level");
+                    p.sendMessage(ChatColor.YELLOW + "Successfully restored " + target.getDisplayName() + "'s hunger level");
                 }
             }
         }
