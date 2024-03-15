@@ -15,7 +15,6 @@ public class time implements CommandExecutor {
         if (sender instanceof Player p) {
             if (args.length == 0) {
                 p.sendMessage(ChatColor.RED + "Please specify the time");
-<<<<<<< HEAD
             }
 
             String timeArg = args[0];
@@ -26,11 +25,6 @@ public class time implements CommandExecutor {
                 p.sendMessage(ChatColor.YELLOW + "Time set to " + timeValue);
             } catch (NumberFormatException e) {
                 p.sendMessage(ChatColor.RED + "Invalid time format, please specify a number");
-=======
-            }else{
-                p.performCommand("time set " + Arrays.toString(args));
-                p.sendMessage(ChatColor.YELLOW + "The time has been set to " + Arrays.toString(args));
->>>>>>> 008c0e21386f70ef87434fa7356c96b679fbad17
             }
         }
         return true;
