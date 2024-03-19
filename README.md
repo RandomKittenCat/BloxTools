@@ -14,3 +14,9 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   > `/kill` kills a player specified <br />
   > `/time` sets the time of the world <br />
   > `/weather` sets the weather of the world <br />
+
+
+
+| Plugin Version | Supported Minecraft Version |
+|----------------|-----------------------------|
+| 1.0            | 1.20.4                      |
