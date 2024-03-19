@@ -24,10 +24,14 @@ public class weather implements CommandExecutor {
 
             switch (weatherType) {
                 case "sun":
+                    world.setStorm(false); // Clear any existing weather
+                    world.setThundering(false);
+                    p.sendMessage(ChatColor.YELLOW + "The weather has been set to sun");
+                    break;
                 case "clear":
                     world.setStorm(false); // Clear any existing weather
                     world.setThundering(false);
-                    p.sendMessage(ChatColor.YELLOW + "The weather has been set to clear/sun");
+                    p.sendMessage(ChatColor.YELLOW + "The weather has been set to clear");
                     break;
                 case "rain":
                     world.setStorm(true);

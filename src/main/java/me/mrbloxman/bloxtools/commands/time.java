@@ -19,13 +19,37 @@ public class time implements CommandExecutor {
 
             String timeArg = args[0];
 
-            try{
-                long timeValue = Long.parseLong(timeArg);
-                p.getWorld().setTime(timeValue);
-                p.sendMessage(ChatColor.YELLOW + "Time set to " + timeValue);
-            } catch (NumberFormatException e) {
-                p.sendMessage(ChatColor.RED + "Invalid time format, please specify a number");
+            long timeValue = -1;
+
+            switch (timeArg) {
+                case "sunrise":
+                    timeValue = 0;
+                    break;
+                case "sunset":
+                    timeValue = 12000;
+                    break;
+                case "day":
+                    timeValue = 1000;
+                    break;
+                case "night":
+                    timeValue = 13000;
+                    break;
+                case "noon":
+                    timeValue = 6000;
+                    break;
+                case "midnight":
+                    timeValue = 18000;
+                    break;
+                default:
+                    try{
+                        timeValue = Long.parseLong(timeArg);
+                    } catch (NumberFormatException e) {
+                        p.sendMessage(ChatColor.RED + "Invalid time format, please specify a number or a time keyword (day, night, etc)");
+                        return true;
+                    }
             }
+            p.getWorld().setTime(timeValue);
+            p.sendMessage(ChatColor.YELLOW + "Time set to " + timeValue);
         }
         return true;
     }
