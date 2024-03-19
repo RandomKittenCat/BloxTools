@@ -15,7 +15,7 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   > `/time` sets the time of the world <br />
   > `/weather` sets the weather of the world <br />
 
-
+<br />
 
 | Plugin Version | Supported Minecraft Version |
 |----------------|-----------------------------|
