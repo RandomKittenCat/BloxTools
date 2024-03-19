@@ -1,18 +1,15 @@
 package me.mrbloxman.bloxtools.commands;
 
-import me.mrbloxman.bloxtools.BloxTools;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.Plugin;
 
 import javax.annotation.Nonnull;
 
 public class heal implements CommandExecutor {
-    Plugin plugin = BloxTools.getPlugin(BloxTools.class);
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
         if (sender instanceof Player p) {

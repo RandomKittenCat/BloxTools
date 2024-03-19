@@ -6,7 +6,9 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   ----------------------------------------------------------------------------------------
 
   > `/btinfo` info on the plugin! <br />
+  > `/coords` shows your current player coordinates <br />
   > `/feed` fills your hunger to full <br />
+  > `/forecast` will display the current weather type <br />
   > `/gmc` set gamemode to creative  <br />
   > `/gms` set gamemode to survival <br />
   > `/gmsp` set gamemode to spectator <br />

@@ -8,8 +8,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import javax.annotation.Nonnull;
-import java.util.Arrays;
-import java.util.Locale;
 
 public class weather implements CommandExecutor {
     @Override
@@ -23,25 +21,25 @@ public class weather implements CommandExecutor {
             String weatherType = args[0].toLowerCase();
 
             switch (weatherType) {
-                case "sun":
+                case "sun" -> {
                     world.setStorm(false); // Clear any existing weather
                     world.setThundering(false);
                     p.sendMessage(ChatColor.YELLOW + "The weather has been set to sun");
-                    break;
-                case "clear":
+                }
+                case "clear" -> {
                     world.setStorm(false); // Clear any existing weather
                     world.setThundering(false);
                     p.sendMessage(ChatColor.YELLOW + "The weather has been set to clear");
-                    break;
-                case "rain":
+                }
+                case "rain" -> {
                     world.setStorm(true);
                     p.sendMessage(ChatColor.YELLOW + "The weather has been set to rain");
-                    break;
-                case "storm":
-                case "thunder":
+                }
+                case "storm", "thunder" -> {
                     world.setStorm(true);
                     world.setThundering(true);
                     p.sendMessage(ChatColor.YELLOW + "The weather has been set to thunder/storm");
+                }
             }
         }
         return true;

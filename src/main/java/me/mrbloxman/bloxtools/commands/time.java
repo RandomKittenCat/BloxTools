@@ -7,7 +7,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import javax.annotation.Nonnull;
-import java.util.Arrays;
 
 public class time implements CommandExecutor {
     @Override
@@ -22,31 +21,20 @@ public class time implements CommandExecutor {
             long timeValue = -1;
 
             switch (timeArg) {
-                case "sunrise":
-                    timeValue = 0;
-                    break;
-                case "sunset":
-                    timeValue = 12000;
-                    break;
-                case "day":
-                    timeValue = 1000;
-                    break;
-                case "night":
-                    timeValue = 13000;
-                    break;
-                case "noon":
-                    timeValue = 6000;
-                    break;
-                case "midnight":
-                    timeValue = 18000;
-                    break;
-                default:
-                    try{
+                case "sunrise" -> timeValue = 0;
+                case "sunset" -> timeValue = 12000;
+                case "day" -> timeValue = 1000;
+                case "night" -> timeValue = 13000;
+                case "noon" -> timeValue = 6000;
+                case "midnight" -> timeValue = 18000;
+                default -> {
+                    try {
                         timeValue = Long.parseLong(timeArg);
                     } catch (NumberFormatException e) {
                         p.sendMessage(ChatColor.RED + "Invalid time format, please specify a number or a time keyword (day, night, etc)");
                         return true;
                     }
+                }
             }
             p.getWorld().setTime(timeValue);
             p.sendMessage(ChatColor.YELLOW + "Time set to " + timeValue);

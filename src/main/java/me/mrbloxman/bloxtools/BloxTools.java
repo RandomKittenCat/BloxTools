@@ -22,6 +22,8 @@ public final class BloxTools extends JavaPlugin {
         Objects.requireNonNull(getCommand("feed")).setExecutor(new feed());
         Objects.requireNonNull(getCommand("weather")).setExecutor(new weather());
         Objects.requireNonNull(getCommand("time")).setExecutor(new time());
+        Objects.requireNonNull(getCommand("coords")).setExecutor(new coords());
+        Objects.requireNonNull(getCommand("forecast")).setExecutor(new forecast());
     }
 
     @Override

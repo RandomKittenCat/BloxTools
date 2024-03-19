@@ -52,3 +52,14 @@ commands:
     usage: /<command> [time]
     permission: bloxtools.time
     permission-message: You don't have access to this command!
+  coords:
+    description: Displays your coordinates in chat
+    usage: /<command>
+    permission: bloxtools.coords
+    permission-message: You don't have access to this command!
+    aliases: [coordinates, location, whereami]
+  forecast:
+    description: Displays the current weather type in chat
+    usage: /<command>
+    permission: bloxtools.forecast
+    permission-message: You don't have access to this command!
