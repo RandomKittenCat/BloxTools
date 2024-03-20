@@ -23,7 +23,7 @@ public class forecast implements CommandExecutor {
                     weatherForecast = ChatColor.BLUE + "rain";
                 }
             } else {
-                weatherForecast = ChatColor.YELLOW + "clear";
+                weatherForecast = ChatColor.GREEN + "clear";
             }
 
             p.sendMessage(ChatColor.YELLOW + "The current weather forecast in this world is: " + weatherForecast);

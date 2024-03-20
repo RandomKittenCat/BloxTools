@@ -7,16 +7,18 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import javax.annotation.Nonnull;
+import java.util.Locale;
 
 public class time implements CommandExecutor {
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
         if (sender instanceof Player p) {
             if (args.length == 0) {
-                p.sendMessage(ChatColor.RED + "Please specify the time");
+                p.sendMessage(ChatColor.RED + "Please specify the time you would like the world to be set to");
+                return true;
             }
 
-            String timeArg = args[0];
+            String timeArg = args[0].toLowerCase();
 
             long timeValue = -1;
 

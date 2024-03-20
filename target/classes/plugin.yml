@@ -13,53 +13,59 @@ commands:
     description: Heal a players hearts to full
     usage: /<command> [player]
     permission: bloxtools.heal
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
   gmc:
     description: Set gamemode to creative
     usage: /<command> [player]
     permission: bloxtools.creative
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
     aliases: [creative, gmcreative, gm1]
   gms:
     description: Set gamemode to survival
     usage: /<command> [player]
     permission: bloxtools.survival
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
     aliases: [survival, gmsurvival, gm2]
   gmsp:
     description: Set gamemode to spectator
     usage: /<command> [player]
     permission: bloxtools.spectator
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
     aliases: [spectator, gmspectator, gm3]
   kill:
     description: Kills the player specified
     usage: /<command> [player]
     permission: bloxtools.kill
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
   feed:
     description: Restores a players hunger bar
     usage: /<command> [player]
     permission: bloxtools.feed
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
   weather:
     description: Sets the weather of the world
     usage: /<command> [weathertype]
     permission: bloxtools.weather
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
   time:
     description: Set the time of the world
     usage: /<command> [time]
     permission: bloxtools.time
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
   coords:
     description: Displays your coordinates in chat
     usage: /<command>
     permission: bloxtools.coords
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
     aliases: [coordinates, location, whereami]
   forecast:
     description: Displays the current weather type in chat
     usage: /<command>
     permission: bloxtools.forecast
-    permission-message: You don't have access to this command!
+    permission-message: You don't have permission to use this command!
+  checktime:
+    description: Check the current in-game time
+    usage: /<command>
+    permission: bloxtools.checktime
+    permission-message: You don't have permission to use this command!
+    aliases: [gettime, checkwatch]

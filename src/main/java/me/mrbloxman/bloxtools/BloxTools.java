@@ -12,7 +12,6 @@ public final class BloxTools extends JavaPlugin {
         // Plugin startup logic
         System.out.println("BloxTools has started (V2)");
 
-
         Objects.requireNonNull(getCommand("btinfo")).setExecutor(new btinfo());
         Objects.requireNonNull(getCommand("heal")).setExecutor(new heal());
         Objects.requireNonNull(getCommand("gmc")).setExecutor(new gmc());
@@ -24,6 +23,7 @@ public final class BloxTools extends JavaPlugin {
         Objects.requireNonNull(getCommand("time")).setExecutor(new time());
         Objects.requireNonNull(getCommand("coords")).setExecutor(new coords());
         Objects.requireNonNull(getCommand("forecast")).setExecutor(new forecast());
+        Objects.requireNonNull(getCommand("checktime")).setExecutor(new checktime());
     }
 
     @Override
