@@ -69,3 +69,8 @@ commands:
     permission: bloxtools.checktime
     permission-message: You don't have permission to use this command!
     aliases: [gettime, checkwatch]
+  spawn:
+    description: Teleports the player to spawn
+    usage: /<command> [player]
+    permission: bloxtools.spawn
+    permission-message: You don't have permission to use this command!

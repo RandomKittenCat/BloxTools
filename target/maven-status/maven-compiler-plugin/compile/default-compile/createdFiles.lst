@@ -6,6 +6,7 @@ me\mrbloxman\bloxtools\commands\coords.class
 me\mrbloxman\bloxtools\commands\feed.class
 me\mrbloxman\bloxtools\commands\weather.class
 me\mrbloxman\bloxtools\BloxTools.class
+me\mrbloxman\bloxtools\commands\spawn.class
 me\mrbloxman\bloxtools\commands\checktime.class
 me\mrbloxman\bloxtools\commands\heal.class
 me\mrbloxman\bloxtools\commands\gms.class

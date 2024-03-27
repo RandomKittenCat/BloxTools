@@ -24,6 +24,7 @@ public final class BloxTools extends JavaPlugin {
         Objects.requireNonNull(getCommand("coords")).setExecutor(new coords());
         Objects.requireNonNull(getCommand("forecast")).setExecutor(new forecast());
         Objects.requireNonNull(getCommand("checktime")).setExecutor(new checktime());
+        Objects.requireNonNull(getCommand("spawn")).setExecutor(new spawn());
     }
 
     @Override

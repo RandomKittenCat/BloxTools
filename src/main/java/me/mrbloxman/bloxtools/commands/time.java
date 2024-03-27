@@ -21,14 +21,33 @@ public class time implements CommandExecutor {
             String timeArg = args[0].toLowerCase();
 
             long timeValue = -1;
+            String timeDescription = null;
 
             switch (timeArg) {
-                case "sunrise" -> timeValue = 0;
-                case "sunset" -> timeValue = 12000;
-                case "day" -> timeValue = 1000;
-                case "night" -> timeValue = 13000;
-                case "noon" -> timeValue = 6000;
-                case "midnight" -> timeValue = 18000;
+                case "sunrise" -> {
+                    timeValue = 0;
+                    timeDescription = "sunrise";
+                }
+                case "sunset" -> {
+                    timeValue = 12000;
+                    timeDescription = "sunset";
+                }
+                case "day" -> {
+                    timeValue = 1000;
+                    timeDescription = "day";
+                }
+                case "night" -> {
+                    timeValue = 13000;
+                    timeDescription = "night";
+                }
+                case "noon" -> {
+                    timeValue = 6000;
+                    timeDescription = "noon";
+                }
+                case "midnight" -> {
+                    timeValue = 18000;
+                    timeDescription = "midnight";
+                }
                 default -> {
                     try {
                         timeValue = Long.parseLong(timeArg);
@@ -39,7 +58,11 @@ public class time implements CommandExecutor {
                 }
             }
             p.getWorld().setTime(timeValue);
-            p.sendMessage(ChatColor.YELLOW + "Time set to " + timeValue);
+            if (timeDescription != null) {
+                p.sendMessage(ChatColor.YELLOW + "Time set to " + timeDescription);
+            } else {
+                p.sendMessage(ChatColor.YELLOW + "Time set to " + timeValue);
+            }
         }
         return true;
     }
