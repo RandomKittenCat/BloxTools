@@ -33,9 +33,15 @@ public class spawnmob implements CommandExecutor {
                             amount = Integer.parseInt(args[1]);
                             if (amount <= 0) {
                                 p.sendMessage(ChatColor.RED + "The amount specified must be a positive number.");
+                                return true;
+                            }
+                            if (amount > 2000) {
+                                p.sendMessage(ChatColor.RED + "This command will not executed due to possible server crash and corruption.");
+                                return true;
                             }
                         } catch (NumberFormatException e) {
                             p.sendMessage(ChatColor.RED + "Invalid amount, make sure you are putting a number.");
+                            return true;
                         }
                     }
 
@@ -44,12 +50,15 @@ public class spawnmob implements CommandExecutor {
                         p.getWorld().spawnEntity(spawnLocation, EntityType.valueOf(args[0].toUpperCase()));
                     }
                     p.sendMessage(ChatColor.YELLOW + "Spawned " + amount + " "+ args[0].toLowerCase() + "(s) at your location.");
+                    return true;
                 }
             }else{
                 p.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
+                return true;
             }
         }else{
             sender.sendMessage(ChatColor.RED + "Only players can use this command");
+            return true;
         }
         return true;
     }
