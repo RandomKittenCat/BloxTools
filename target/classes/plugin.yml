@@ -74,3 +74,8 @@ commands:
     usage: /<command> [player]
     permission: bloxtools.spawn
     permission-message: You don't have permission to use this command!
+  spawnmob:
+    description: Spawn an entity at your location
+    usage: /spawnmob <mobtype> [amount]
+    permission: bloxtools.spawnmob
+    permission-message: You don't have permission to use this command!
