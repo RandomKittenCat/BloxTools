@@ -14,7 +14,7 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   > `/gms` set gamemode to survival <br />
   > `/gmsp` set gamemode to spectator <br />
   > `/heal` gives back your hearts <br />
-  > `/kill` kills a player specified <br />
+  > `/kill` kills the player specified <br />
   > `/spawn` teleports the player to the world spawn <br />
   > `/spawnmob` spawns the mob specified at the players location <br />
   > `/time` sets the time of the world <br />

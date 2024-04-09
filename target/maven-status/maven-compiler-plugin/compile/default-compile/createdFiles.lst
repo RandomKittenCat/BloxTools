@@ -1,4 +1,5 @@
 me\mrbloxman\bloxtools\commands\forecast.class
+me\mrbloxman\bloxtools\commands\repair.class
 me\mrbloxman\bloxtools\commands\gmc.class
 me\mrbloxman\bloxtools\commands\gmsp.class
 me\mrbloxman\bloxtools\commands\btinfo.class

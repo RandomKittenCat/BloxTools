@@ -76,6 +76,11 @@ commands:
     permission-message: You don't have permission to use this command!
   spawnmob:
     description: Spawn an entity at your location
-    usage: /spawnmob <mobtype> [amount]
+    usage: /<command> <mobtype> [amount]
     permission: bloxtools.spawnmob
+    permission-message: You don't have permission to use this command!
+  repair:
+    description: Repair the current item in your hand
+    usage: /<command>
+    permission: bloxtools.repair
     permission-message: You don't have permission to use this command!
