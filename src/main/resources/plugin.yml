@@ -84,3 +84,14 @@ commands:
     usage: /<command>
     permission: bloxtools.repair
     permission-message: You don't have permission to use this command!
+  killall:
+    description: Kill all mobs/entities within the server
+    usage: /<command>
+    permission: bloxtools.killall
+    permission-message: You don't have permission to use this command!
+  broadcast:
+    description: Broadcast a message in chat to all players
+    usage: /<command>
+    permission: bloxtools.broadcast
+    permission-message: You don't have permission to use this command!
+    aliases: [bc, bcast, announcement, announce]

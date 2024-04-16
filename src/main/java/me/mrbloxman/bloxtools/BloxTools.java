@@ -27,6 +27,8 @@ public final class BloxTools extends JavaPlugin {
         Objects.requireNonNull(getCommand("spawn")).setExecutor(new spawn());
         Objects.requireNonNull(getCommand("spawnmob")).setExecutor(new spawnmob());
         Objects.requireNonNull(getCommand("repair")).setExecutor(new repair());
+        Objects.requireNonNull(getCommand("killall")).setExecutor(new killall());
+        Objects.requireNonNull(getCommand("broadcast")).setExecutor(new broadcast());
     }
 
     @Override
