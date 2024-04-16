@@ -12,11 +12,7 @@ public class BTInfoCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(@Nonnull CommandSender sender, @Nonnull Command command, String label, @Nonnull String[] args){
-        if (label.equalsIgnoreCase("btinfo")){
-            if (sender instanceof Player p){
-                p.sendMessage(ChatColor.RED + "The BloxTools plugin is made and maintained by MrBloxMan, you can find support for the plugin at: https://github.com/RandomKittenCat/BloxTools");
-            }
-        }
+        sender.sendMessage(ChatColor.RED + "The BloxTools plugin is made and maintained by MrBloxMan, you can find support for the plugin at: https://github.com/RandomKittenCat/BloxTools");
         return true;
     }
 }
