@@ -8,7 +8,7 @@ import org.bukkit.command.CommandSender;
 
 import javax.annotation.Nonnull;
 
-public class broadcast implements CommandExecutor {
+public class BroadcastCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
         if (sender.hasPermission("bloxtools.broadcast")) {

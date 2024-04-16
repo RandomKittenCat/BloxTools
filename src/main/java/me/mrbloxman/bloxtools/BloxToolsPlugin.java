@@ -30,7 +30,7 @@ public final class BloxToolsPlugin extends JavaPlugin {
         getCommand("spawnmob").setExecutor(new spawnmob());
         getCommand("repair").setExecutor(new repair());
         getCommand("killall").setExecutor(new killall());
-        getCommand("broadcast").setExecutor(new broadcast());
+        getCommand("broadcast").setExecutor(new BroadcastCommand());
     }
 
     @Override
