@@ -19,7 +19,7 @@ public final class BloxToolsPlugin extends JavaPlugin {
         getCommand("gmc").setExecutor(new gmc());
         getCommand("gms").setExecutor(new gms());
         getCommand("gmsp").setExecutor(new gmsp());
-        getCommand("kill").setExecutor(new kill());
+        getCommand("kill").setExecutor(new KillCommand());
         getCommand("feed").setExecutor(new FeedCommand());
         getCommand("weather").setExecutor(new weather());
         getCommand("time").setExecutor(new time());
@@ -29,7 +29,7 @@ public final class BloxToolsPlugin extends JavaPlugin {
         getCommand("spawn").setExecutor(new spawn());
         getCommand("spawnmob").setExecutor(new spawnmob());
         getCommand("repair").setExecutor(new repair());
-        getCommand("killall").setExecutor(new killall());
+        getCommand("killall").setExecutor(new KillAllCommand());
         getCommand("broadcast").setExecutor(new BroadcastCommand());
     }
 

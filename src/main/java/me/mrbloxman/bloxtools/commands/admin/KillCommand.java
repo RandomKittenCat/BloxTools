@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 
 import javax.annotation.Nonnull;
 
-public class kill implements CommandExecutor {
+public class KillCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(@Nonnull CommandSender sender, @Nonnull Command command, @Nonnull String s, @Nonnull String[] args) {
