@@ -15,7 +15,6 @@ public class CoordsCommand implements CommandExecutor {
             int x = (int) Math.round(p.getLocation().getX());
             int y = (int) Math.round(p.getLocation().getY());
             int z = (int) Math.round(p.getLocation().getZ());
-            String worldName = p.getWorld().getName();
 
             p.sendMessage(ChatColor.YELLOW + "Your current coordinates in this world are:");
             p.sendMessage(ChatColor.YELLOW + "X: " + ChatColor.WHITE + x + " " + ChatColor.YELLOW + "Y: " + ChatColor.WHITE + y + " " + ChatColor.YELLOW + "Z: " + ChatColor.WHITE + z);
