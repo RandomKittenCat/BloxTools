@@ -20,7 +20,7 @@ public final class BloxToolsPlugin extends JavaPlugin {
         getCommand("gms").setExecutor(new gms());
         getCommand("gmsp").setExecutor(new gmsp());
         getCommand("kill").setExecutor(new kill());
-        getCommand("feed").setExecutor(new feed());
+        getCommand("feed").setExecutor(new FeedCommand());
         getCommand("weather").setExecutor(new weather());
         getCommand("time").setExecutor(new time());
         getCommand("coords").setExecutor(new coords());
