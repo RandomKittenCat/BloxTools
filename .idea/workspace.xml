@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc582a77-63a3-43e6-ba7c-0f7652818f7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/broadcast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/killall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/BloxTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/BloxTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/repair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BloxTools-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/BloxTools-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BloxTools-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/BloxTools-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/mrbloxman/bloxtools/commands/repair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/mrbloxman/bloxtools/commands/repair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-BloxTools-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-BloxTools-1.0-SNAPSHOT.jar" afterDir="false" />
+    <list default="true" id="dc582a77-63a3-43e6-ba7c-0f7652818f7d" name="Changes" comment="Renamed spawn command">
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/BloxToolsPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/BloxToolsPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/admin/spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/admin/SpawnCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +41,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -90,6 +80,70 @@
       <option name="presentableId" value="Default" />
       <updated>1706907779189</updated>
     </task>
+    <task id="LOCAL-00001" summary="Renamed main class to BloxToolsPlugin">
+      <created>1713283654835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713283654835</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed uless require non nulls">
+      <created>1713283756105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713283756105</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Moved commands into categories">
+      <created>1713283915307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713283915307</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Renamed broadcast command">
+      <created>1713283943284</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713283943284</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Renamed feed command">
+      <created>1713283961780</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713283961780</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Renamed heal command">
+      <created>1713284016652</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713284016652</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Renamed kill all command">
+      <created>1713284043190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713284043190</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Renamed repair command">
+      <created>1713284064247</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713284064247</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Renamed spawn command">
+      <created>1713284083245</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713284083245</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,5 +156,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Renamed main class to BloxToolsPlugin" />
+    <MESSAGE value="Removed uless require non nulls" />
+    <MESSAGE value="Moved commands into categories" />
+    <MESSAGE value="Renamed broadcast command" />
+    <MESSAGE value="Renamed feed command" />
+    <MESSAGE value="Renamed heal command" />
+    <MESSAGE value="Renamed kill all command" />
+    <MESSAGE value="Renamed repair command" />
+    <MESSAGE value="Renamed spawn command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed spawn command" />
   </component>
 </project>

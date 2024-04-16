@@ -9,9 +9,8 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 
 import javax.annotation.Nonnull;
-import java.util.Locale;
 
-public class spawnmob implements CommandExecutor {
+public class SpawnMobCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
         if (sender instanceof Player p){

@@ -21,13 +21,13 @@ public final class BloxToolsPlugin extends JavaPlugin {
         getCommand("gmsp").setExecutor(new gmsp());
         getCommand("kill").setExecutor(new KillCommand());
         getCommand("feed").setExecutor(new FeedCommand());
-        getCommand("weather").setExecutor(new weather());
-        getCommand("time").setExecutor(new time());
+        getCommand("weather").setExecutor(new WeatherCommand());
+        getCommand("time").setExecutor(new TimeCommand());
         getCommand("coords").setExecutor(new coords());
         getCommand("forecast").setExecutor(new forecast());
         getCommand("checktime").setExecutor(new checktime());
         getCommand("spawn").setExecutor(new SpawnCommand());
-        getCommand("spawnmob").setExecutor(new spawnmob());
+        getCommand("spawnmob").setExecutor(new SpawnMobCommand());
         getCommand("repair").setExecutor(new RepairCommand());
         getCommand("killall").setExecutor(new KillAllCommand());
         getCommand("broadcast").setExecutor(new BroadcastCommand());
