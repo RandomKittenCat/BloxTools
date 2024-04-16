@@ -5,6 +5,7 @@ import me.mrbloxman.bloxtools.commands.admin.*;
 import me.mrbloxman.bloxtools.commands.player.CheckTimeCommand;
 import me.mrbloxman.bloxtools.commands.player.CoordsCommand;
 import me.mrbloxman.bloxtools.commands.player.ForecastCommand;
+import org.bukkit.GameMode;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class BloxToolsPlugin extends JavaPlugin {
@@ -16,9 +17,10 @@ public final class BloxToolsPlugin extends JavaPlugin {
 
         getCommand("btinfo").setExecutor(new BTInfoCommand());
         getCommand("heal").setExecutor(new HealCommand());
-        getCommand("gmc").setExecutor(new gmc());
-        getCommand("gms").setExecutor(new gms());
-        getCommand("gmsp").setExecutor(new gmsp());
+        getCommand("gmc").setExecutor(new GamemodeCommand(GameMode.CREATIVE));
+        getCommand("gms").setExecutor(new GamemodeCommand(GameMode.SURVIVAL));
+        getCommand("gmsp").setExecutor(new GamemodeCommand(GameMode.SPECTATOR));
+        getCommand("gma").setExecutor(new GamemodeCommand(GameMode.ADVENTURE));
         getCommand("kill").setExecutor(new KillCommand());
         getCommand("feed").setExecutor(new FeedCommand());
         getCommand("weather").setExecutor(new WeatherCommand());

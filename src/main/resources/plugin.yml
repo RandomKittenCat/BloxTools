@@ -32,6 +32,13 @@ commands:
     permission: bloxtools.spectator
     permission-message: You don't have permission to use this command!
     aliases: [spectator, gmspectator, gm3]
+  gmsa:
+    description: Set gamemode to adventure
+    usage: /<command> [player]
+    permission: bloxtools.adventure
+    permission-message: You don't have permission to use this command!
+    aliases: [adventure, gmadventure, gm2]
+
   kill:
     description: Kills the player specified
     usage: /<command> [player]
