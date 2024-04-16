@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 
 import javax.annotation.Nonnull;
 
-public class spawn implements CommandExecutor {
+public class SpawnCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
         if (sender instanceof Player p) {
