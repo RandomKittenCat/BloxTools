@@ -1,4 +1,4 @@
-package me.mrbloxman.bloxtools.commands;
+package me.mrbloxman.bloxtools.commands.admin;
 
 import org.bukkit.ChatColor;
 import org.bukkit.World;

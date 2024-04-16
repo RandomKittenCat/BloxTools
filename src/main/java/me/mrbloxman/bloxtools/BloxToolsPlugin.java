@@ -1,9 +1,11 @@
 package me.mrbloxman.bloxtools;
 
 import me.mrbloxman.bloxtools.commands.*;
+import me.mrbloxman.bloxtools.commands.admin.*;
+import me.mrbloxman.bloxtools.commands.player.checktime;
+import me.mrbloxman.bloxtools.commands.player.coords;
+import me.mrbloxman.bloxtools.commands.player.forecast;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.util.Objects;
 
 public final class BloxToolsPlugin extends JavaPlugin {
 
