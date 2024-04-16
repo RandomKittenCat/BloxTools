@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
 
-public final class BloxTools extends JavaPlugin {
+public final class BloxToolsPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {

@@ -1,6 +1,6 @@
 name: BloxTools
 version: '${project.version}'
-main: me.mrbloxman.bloxtools.BloxTools
+main: me.mrbloxman.bloxtools.BloxToolsPlugin
 api-version: '1.20'
 website: https://github.com/RandomKittenCat/BloxTools
 authors: [ MrBloxMan, cats585, RandomKittenCat ]
