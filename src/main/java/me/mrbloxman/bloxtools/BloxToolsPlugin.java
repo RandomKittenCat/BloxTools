@@ -12,23 +12,23 @@ public final class BloxToolsPlugin extends JavaPlugin {
         // Plugin startup logic
         System.out.println("BloxTools has started (V2)");
 
-        Objects.requireNonNull(getCommand("btinfo")).setExecutor(new btinfo());
-        Objects.requireNonNull(getCommand("heal")).setExecutor(new heal());
-        Objects.requireNonNull(getCommand("gmc")).setExecutor(new gmc());
-        Objects.requireNonNull(getCommand("gms")).setExecutor(new gms());
-        Objects.requireNonNull(getCommand("gmsp")).setExecutor(new gmsp());
-        Objects.requireNonNull(getCommand("kill")).setExecutor(new kill());
-        Objects.requireNonNull(getCommand("feed")).setExecutor(new feed());
-        Objects.requireNonNull(getCommand("weather")).setExecutor(new weather());
-        Objects.requireNonNull(getCommand("time")).setExecutor(new time());
-        Objects.requireNonNull(getCommand("coords")).setExecutor(new coords());
-        Objects.requireNonNull(getCommand("forecast")).setExecutor(new forecast());
-        Objects.requireNonNull(getCommand("checktime")).setExecutor(new checktime());
-        Objects.requireNonNull(getCommand("spawn")).setExecutor(new spawn());
-        Objects.requireNonNull(getCommand("spawnmob")).setExecutor(new spawnmob());
-        Objects.requireNonNull(getCommand("repair")).setExecutor(new repair());
-        Objects.requireNonNull(getCommand("killall")).setExecutor(new killall());
-        Objects.requireNonNull(getCommand("broadcast")).setExecutor(new broadcast());
+        getCommand("btinfo").setExecutor(new btinfo());
+        getCommand("heal").setExecutor(new heal());
+        getCommand("gmc").setExecutor(new gmc());
+        getCommand("gms").setExecutor(new gms());
+        getCommand("gmsp").setExecutor(new gmsp());
+        getCommand("kill").setExecutor(new kill());
+        getCommand("feed").setExecutor(new feed());
+        getCommand("weather").setExecutor(new weather());
+        getCommand("time").setExecutor(new time());
+        getCommand("coords").setExecutor(new coords());
+        getCommand("forecast").setExecutor(new forecast());
+        getCommand("checktime").setExecutor(new checktime());
+        getCommand("spawn").setExecutor(new spawn());
+        getCommand("spawnmob").setExecutor(new spawnmob());
+        getCommand("repair").setExecutor(new repair());
+        getCommand("killall").setExecutor(new killall());
+        getCommand("broadcast").setExecutor(new broadcast());
     }
 
     @Override
