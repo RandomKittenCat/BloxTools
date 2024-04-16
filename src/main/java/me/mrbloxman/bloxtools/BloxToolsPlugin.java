@@ -2,9 +2,9 @@ package me.mrbloxman.bloxtools;
 
 import me.mrbloxman.bloxtools.commands.*;
 import me.mrbloxman.bloxtools.commands.admin.*;
-import me.mrbloxman.bloxtools.commands.player.checktime;
-import me.mrbloxman.bloxtools.commands.player.coords;
-import me.mrbloxman.bloxtools.commands.player.forecast;
+import me.mrbloxman.bloxtools.commands.player.CheckTimeCommand;
+import me.mrbloxman.bloxtools.commands.player.CoordsCommand;
+import me.mrbloxman.bloxtools.commands.player.ForecastCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class BloxToolsPlugin extends JavaPlugin {
@@ -14,7 +14,7 @@ public final class BloxToolsPlugin extends JavaPlugin {
         // Plugin startup logic
         System.out.println("BloxTools has started (V2)");
 
-        getCommand("btinfo").setExecutor(new btinfo());
+        getCommand("btinfo").setExecutor(new BTInfoCommand());
         getCommand("heal").setExecutor(new HealCommand());
         getCommand("gmc").setExecutor(new gmc());
         getCommand("gms").setExecutor(new gms());
@@ -23,9 +23,9 @@ public final class BloxToolsPlugin extends JavaPlugin {
         getCommand("feed").setExecutor(new FeedCommand());
         getCommand("weather").setExecutor(new WeatherCommand());
         getCommand("time").setExecutor(new TimeCommand());
-        getCommand("coords").setExecutor(new coords());
-        getCommand("forecast").setExecutor(new forecast());
-        getCommand("checktime").setExecutor(new checktime());
+        getCommand("coords").setExecutor(new CoordsCommand());
+        getCommand("forecast").setExecutor(new ForecastCommand());
+        getCommand("checktime").setExecutor(new CheckTimeCommand());
         getCommand("spawn").setExecutor(new SpawnCommand());
         getCommand("spawnmob").setExecutor(new SpawnMobCommand());
         getCommand("repair").setExecutor(new RepairCommand());

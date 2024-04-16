@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 
 import javax.annotation.Nonnull;
 
-public class btinfo implements CommandExecutor {
+public class BTInfoCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(@Nonnull CommandSender sender, @Nonnull Command command, String label, @Nonnull String[] args){
