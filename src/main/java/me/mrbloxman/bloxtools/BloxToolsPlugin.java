@@ -15,7 +15,7 @@ public final class BloxToolsPlugin extends JavaPlugin {
         System.out.println("BloxTools has started (V2)");
 
         getCommand("btinfo").setExecutor(new btinfo());
-        getCommand("heal").setExecutor(new heal());
+        getCommand("heal").setExecutor(new HealCommand());
         getCommand("gmc").setExecutor(new gmc());
         getCommand("gms").setExecutor(new gms());
         getCommand("gmsp").setExecutor(new gmsp());
