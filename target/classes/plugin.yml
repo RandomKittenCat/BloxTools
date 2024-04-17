@@ -95,3 +95,7 @@ commands:
     permission: bloxtools.broadcast
     permission-message: You don't have permission to use this command!
     aliases: [bc, bcast, announcement, announce]
+  whisper:
+    description: Private message a user
+    usage: /<command> <user> <message>
+    aliases: [pm, msg, tell]

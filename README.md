@@ -19,6 +19,9 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   > `/spawnmob` spawns the mob specified at the players location <br />
   > `/time` sets the time of the world <br />
   > `/weather` sets the weather of the world <br />
+  > `/whisper` sends a private message to another player <br />
+  > `/broadcast` sends a server wide announcement <br />
+  > `/killall` kills all entities within the server <br />
 
 <br />
 
