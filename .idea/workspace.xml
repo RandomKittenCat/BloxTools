@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc582a77-63a3-43e6-ba7c-0f7652818f7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/whisper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/BloxTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/BloxTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/killall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/killall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BloxTools-1.0-SNAPSHOT-shaded.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/BloxTools-1.0-SNAPSHOT-shaded.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BloxTools-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/BloxTools-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/mrbloxman/bloxtools/commands/killall.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/mrbloxman/bloxtools/commands/killall.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-BloxTools-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-BloxTools-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
