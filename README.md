@@ -4,8 +4,7 @@ Minecraft plugin to add some cool commands to your server just like essentials!
 <br />
 
 > [!CAUTION]
-> THIS PLUGIN IS IN ALPHA DEVELOPMENT, ONLY USE IT IF YOU KNOW WHAT YOU ARE DOING 
-> PLEASE REPORT ANY BUGS FOUND
+> This plugin is in alpha development, please report any bugs in the issues tab
 
 <br />
 
