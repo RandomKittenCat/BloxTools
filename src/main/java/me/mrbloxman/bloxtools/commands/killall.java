@@ -29,8 +29,8 @@ public class killall implements CommandExecutor {
                     }
                     sender.sendMessage(ChatColor.YELLOW + "All mobs and monsters have been removed successfully.");
                 }else{
-                    sender.sendMessage(ChatColor.RED + "Are you 100% sure you want to kill ALL mobs and monsters? This INCLUDES pets and name tagged animals but does not include things like paintings, armor stands, and item frames.");
-                    sender.sendMessage(ChatColor.RED + "Type '" + ChatColor.GREEN + "/confirm" + ChatColor.RED + "' to confirm this command.");
+                    sender.sendMessage(ChatColor.RED + "Are you 100% sure you want to kill ALL mobs and monsters? This INCLUDES pets and name tagged animals but does not include things like paintings, armor stands, and item frames. (VERY DANGEROUS, NOT RECOMMENDED)");
+                    sender.sendMessage(ChatColor.RED + "Type '" + ChatColor.GREEN + "/killall confirm" + ChatColor.RED + "' to confirm this command.");
                 }
             }else{
                 sender.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
