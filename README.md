@@ -1,11 +1,9 @@
 # BloxTools
 Minecraft plugin to add some cool commands to your server just like essentials!
-
 <br />
 
 > [!TIP]
 > This plugin is in alpha development, please report any bugs in the issues tab
-
 <br />
 
   ### Commands
