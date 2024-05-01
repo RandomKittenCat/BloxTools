@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc582a77-63a3-43e6-ba7c-0f7652818f7d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/checktime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/checktime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/coords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/coords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/forecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/forecast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/heal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/heal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/kill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/kill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/spawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/weather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/whisper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/whisper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
