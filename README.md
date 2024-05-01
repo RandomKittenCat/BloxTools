@@ -7,13 +7,18 @@ Minecraft plugin to add some cool commands to your server just like essentials!
 > This plugin is in alpha development, please report any bugs in the issues tab
 <br />
 
+> [!WARNING]
+> The /repair command is not currently working and will be fixed soon
+<br />
+
   ### Commands
 
   ----------------------------------------------------------------------------------------
 
   > `/btinfo` info on the plugin! <br />
+  > `/broadcast` sends a server wide announcement <br />
+  > `/checktime` checks the current in-game time <br />
   > `/coords` shows your current player coordinates <br />
-  > `/checktime` checks the current in-game time <br /> 
   > `/feed` fills your hunger to full <br />
   > `/forecast` will display the current weather type <br />
   > `/gmc` set gamemode to creative  <br />
@@ -21,13 +26,13 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   > `/gmsp` set gamemode to spectator <br />
   > `/heal` gives back your hearts <br />
   > `/kill` kills the player specified <br />
+  > `/killall` kills all entities within the server <br />
+  > `/repair` fixes the tool in the players hand <br />
   > `/spawn` teleports the player to the world spawn <br />
   > `/spawnmob` spawns the mob specified at the players location <br />
   > `/time` sets the time of the world <br />
   > `/weather` sets the weather of the world <br />
   > `/whisper` sends a private message to another player <br />
-  > `/broadcast` sends a server wide announcement <br />
-  > `/killall` kills all entities within the server <br />
 
 <br />
 
