@@ -12,29 +12,33 @@ import javax.annotation.Nonnull;
 public class whisper implements CommandExecutor {
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
-        if (sender instanceof Player p) {
-            if (args.length >= 2){
-                Player target = Bukkit.getPlayerExact(args[0]);
-                if (target == null){
-                    sender.sendMessage(ChatColor.RED + "Player not found or not online.");
-                }else {
-                    StringBuilder messageBuilder = new StringBuilder();
-                    for (int i = 1; i < args.length; i++) {
-                        messageBuilder.append(args[i]).append(" ");
-                    }
-                    String message = messageBuilder.toString().trim();
+        if (sender.hasPermission("bloxtools.whisper")) {
+            if (sender instanceof Player p) {
+                if (args.length >= 2) {
+                    Player target = Bukkit.getPlayerExact(args[0]);
+                    if (target == null) {
+                        sender.sendMessage(ChatColor.RED + "Player not found or not online.");
+                    } else {
+                        StringBuilder messageBuilder = new StringBuilder();
+                        for (int i = 1; i < args.length; i++) {
+                            messageBuilder.append(args[i]).append(" ");
+                        }
+                        String message = messageBuilder.toString().trim();
 
-                    // Send message to user
-                    sender.sendMessage(ChatColor.GRAY + "[To " + target.getName() + "] " + ChatColor.WHITE + message);
-                    target.sendMessage(ChatColor.GRAY + "[From " + sender.getName() + "] " + ChatColor.WHITE + message);
+                        // Send message to user
+                        sender.sendMessage(ChatColor.GRAY + "[To " + target.getName() + "] " + ChatColor.WHITE + message);
+                        target.sendMessage(ChatColor.GRAY + "[From " + sender.getName() + "] " + ChatColor.WHITE + message);
+                    }
+                } else {
+                    p.sendMessage(ChatColor.RED + "Usage: /whisper <player> <message>");
+                    return true;
                 }
-            }else{
-                p.sendMessage(ChatColor.RED + "Usage: /whisper <player> <message>");
+            } else {
+                sender.sendMessage(ChatColor.RED + "This command can only be used by players.");
                 return true;
             }
         }else{
-            sender.sendMessage(ChatColor.RED + "This command can only be used by players.");
-            return true;
+            sender.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
         }
         return true;
     }

@@ -12,23 +12,27 @@ import javax.annotation.Nonnull;
 public class forecast implements CommandExecutor {
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
-        if (sender instanceof Player p) {
-            World world = p.getWorld();
+        if (sender.hasPermission("bloxtools.forecast")) {
+            if (sender instanceof Player p) {
+                World world = p.getWorld();
 
-            String weatherForecast;
-            if (world.hasStorm()) {
-                if (world.isThundering()) {
-                    weatherForecast = ChatColor.RED + "thunderstorm";
+                String weatherForecast;
+                if (world.hasStorm()) {
+                    if (world.isThundering()) {
+                        weatherForecast = ChatColor.RED + "thunderstorm";
+                    } else {
+                        weatherForecast = ChatColor.BLUE + "rain";
+                    }
                 } else {
-                    weatherForecast = ChatColor.BLUE + "rain";
+                    weatherForecast = ChatColor.GREEN + "clear";
                 }
-            } else {
-                weatherForecast = ChatColor.GREEN + "clear";
-            }
 
-            p.sendMessage(ChatColor.YELLOW + "The current weather forecast in this world is: " + weatherForecast);
-        } else {
-            sender.sendMessage(ChatColor.RED + "This command can only be executed by a player.");
+                p.sendMessage(ChatColor.YELLOW + "The current weather forecast in this world is: " + weatherForecast);
+            } else {
+                sender.sendMessage(ChatColor.RED + "This command can only be executed by a player.");
+            }
+        }else{
+            sender.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
         }
         return true;
     }
