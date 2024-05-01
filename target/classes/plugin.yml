@@ -99,3 +99,5 @@ commands:
     description: Private message a user
     usage: /<command> <user> <message>
     aliases: [pm, msg, tell]
+    permission: bloxtools.whisper
+    permission-message: You don't have permission to use this command!
