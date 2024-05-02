@@ -24,13 +24,14 @@ public class repair implements CommandExecutor {
                     p.sendMessage(ChatColor.RED + "You aren't holding an item.");
                     return true;
                 } else {
-                    ItemMeta ItemMeta = item.getItemMeta();
-                    if (!(ItemMeta instanceof Damageable damageable)) {
-                        p.sendMessage(ChatColor.RED + "this item cannot be repaired.");
+                    Damageable damageable = (Damageable) item.getItemMeta();
+                    assert damageable != null;
+                    if (!(damageable.hasDamage())) {
+                        p.sendMessage(ChatColor.RED + "This item cannot be repaired.");
                         return true;
                     } else {
                         damageable.setDamage(0);
-                        item.setItemMeta((ItemMeta) damageable);
+                        item.setItemMeta(damageable);
                         p.getInventory().setItemInMainHand(item);
                         p.sendMessage(ChatColor.YELLOW + "Your item has been repaired.");
 
