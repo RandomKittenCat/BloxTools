@@ -7,14 +7,19 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="spigotmc-repo-snapshots" />
+      <option name="name" value="spigotmc-repo-snapshots" />
+      <option name="url" value="https://hub.spigotmc.org/nexus/content/repositories/snapshots/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="spigot-repo" />
       <option name="name" value="spigot-repo" />
       <option name="url" value="https://repo.maven.apache.org/maven2/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="spigotmc-repo-snapshots" />
-      <option name="name" value="spigotmc-repo-snapshots" />
-      <option name="url" value="https://hub.spigotmc.org/nexus/content/repositories/snapshots/" />
+      <option name="id" value="oss-sonatype-snapshots" />
+      <option name="name" value="oss-sonatype-snapshots" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
