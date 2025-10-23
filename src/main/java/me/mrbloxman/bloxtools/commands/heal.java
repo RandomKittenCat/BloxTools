@@ -12,27 +12,23 @@ import javax.annotation.Nonnull;
 public class heal implements CommandExecutor {
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
-        if (sender.hasPermission("bloxtools.heal")) {
-            if (sender instanceof Player p) {
-                if (args.length == 0) {
-                    p.setHealth(20);
-                    p.sendMessage(ChatColor.YELLOW + "You have healed yourself.");
+        if (sender instanceof Player p) {
+            if (args.length == 0) {
+                p.setHealth(20);
+                p.sendMessage(ChatColor.YELLOW + "You have healed yourself.");
+            } else {
+
+                String playerName = args[0];
+                Player target = Bukkit.getServer().getPlayerExact(playerName);
+
+                if (target == null) {
+                    p.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "The player you specified is not online");
                 } else {
-
-                    String playerName = args[0];
-                    Player target = Bukkit.getServer().getPlayerExact(playerName);
-
-                    if (target == null) {
-                        p.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "The player you specified is not online");
-                    } else {
-                        target.setHealth(20);
-                        target.sendMessage(ChatColor.YELLOW + "You have been healed by another player.");
-                        p.sendMessage(ChatColor.YELLOW + "" + "You have successfully healed " + target.getDisplayName() + ".");
-                    }
+                    target.setHealth(20);
+                    target.sendMessage(ChatColor.YELLOW + "You have been healed by another player.");
+                    p.sendMessage(ChatColor.YELLOW + "" + "You have successfully healed " + target.getDisplayName() + ".");
                 }
             }
-        }else{
-            sender.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
         }
         return true;
     }

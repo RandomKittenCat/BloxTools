@@ -5,14 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d62fae44-38ed-497c-bac5-2b343df6ffd5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/broadcast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/broadcast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/checktime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/checktime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/coords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/coords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/feed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/forecast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/forecast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/heal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/heal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/kill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/kill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/killall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/killall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/repair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/repair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/spawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/spawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/spawnmob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/spawnmob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/weather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/whisper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/whisper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,7 +49,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/RandomKittenCat/BloxTools.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/RandomKittenCat/BloxTools&quot;,
     &quot;accountId&quot;: &quot;a572bcc1-7632-4df7-b802-285adaa97914&quot;
   }
 }</component>
@@ -33,25 +57,29 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="34SLfrfpynSUIDN0EhxTe8eB68y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.BloxTools [clean,compile].executor": "Run",
-    "Maven.BloxTools [clean,package].executor": "Run",
-    "Maven.BloxTools [compile].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.BloxTools [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BloxTools [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BloxTools [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BloxTools [clean,package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>

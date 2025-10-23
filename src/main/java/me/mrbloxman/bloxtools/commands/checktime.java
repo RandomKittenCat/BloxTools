@@ -12,27 +12,23 @@ import javax.annotation.Nonnull;
 public class checktime implements CommandExecutor {
     @Override
     public boolean onCommand(@Nonnull CommandSender sender,@Nonnull Command command,@Nonnull String s,@Nonnull String[] args) {
-        if (sender.hasPermission("bloxtools.checktime")) {
-            if (sender instanceof Player p) {
-                World world = p.getWorld();
-                long time = world.getTime();
+        if (sender instanceof Player p) {
+            World world = p.getWorld();
+            long time = world.getTime();
 
-                int hours = (int) ((time / 1000 + 6) % 24);
-                int minutes = (int) ((time % 1000) * 60 / 1000);
-                String period = hours < 12 ? "AM" : "PM";
+            int hours = (int) ((time / 1000 + 6) % 24);
+            int minutes = (int) ((time % 1000) * 60 / 1000);
+            String period = hours < 12 ? "AM" : "PM";
 
-                // Convert hours to 12-hour format
-                if (hours > 12) {
-                    hours -= 12;
-                } else if (hours == 0) {
-                    hours = 12;
-                }
-
-                String formattedTime = String.format("%02d:%02d %s", hours, minutes, period);
-                p.sendMessage(ChatColor.YELLOW + "The current time in-game is: " + ChatColor.WHITE + formattedTime);
+            // Convert hours to 12-hour format
+            if (hours > 12) {
+                hours -= 12;
+            } else if (hours == 0) {
+                hours = 12;
             }
-        }else{
-            sender.sendMessage(ChatColor.RED + "You don't have permission to use this command!");
+
+            String formattedTime = String.format("%02d:%02d %s", hours, minutes, period);
+            p.sendMessage(ChatColor.YELLOW + "The current time in-game is: " + ChatColor.WHITE + formattedTime);
         }
         return true;
     }
