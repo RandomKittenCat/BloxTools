@@ -106,3 +106,8 @@ commands:
     usage: /<command>
     permission: bloxtools.ping
     permission-message: "§cYou don't have permission to use this command!"
+  hat:
+    description: Put the current item in your hand in your helmet slot
+    usage: /<command>
+    permission: bloxtools.hat
+    permission-message: "§cYou don't have permission to use this command!"
