@@ -1,6 +1,7 @@
 me\mrbloxman\bloxtools\commands\forecast.class
 me\mrbloxman\bloxtools\commands\repair.class
 me\mrbloxman\bloxtools\commands\whisper.class
+me\mrbloxman\bloxtools\commands\hat.class
 me\mrbloxman\bloxtools\commands\gmc.class
 me\mrbloxman\bloxtools\commands\gmsp.class
 me\mrbloxman\bloxtools\commands\btinfo.class
@@ -12,9 +13,11 @@ me\mrbloxman\bloxtools\commands\killall.class
 me\mrbloxman\bloxtools\BloxTools.class
 me\mrbloxman\bloxtools\commands\ping.class
 me\mrbloxman\bloxtools\commands\spawn.class
+me\mrbloxman\bloxtools\commands\clearinv.class
 me\mrbloxman\bloxtools\commands\checktime.class
 me\mrbloxman\bloxtools\commands\heal.class
 me\mrbloxman\bloxtools\commands\gms.class
 me\mrbloxman\bloxtools\commands\kill.class
+me\mrbloxman\bloxtools\commands\smite.class
 me\mrbloxman\bloxtools\commands\broadcast.class
 me\mrbloxman\bloxtools\commands\time.class

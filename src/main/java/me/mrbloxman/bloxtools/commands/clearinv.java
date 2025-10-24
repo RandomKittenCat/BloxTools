@@ -18,7 +18,7 @@ public class clearinv implements CommandExecutor {
         } else {
             if (sender.hasPermission("bloxtools.clearinv.others")) {
                 String playerName = args[0];
-                Player target = Bukkit.getServer().getPlayerExact(playerName);
+                Player target = Bukkit.getPlayerExact(playerName);
 
                 if (target == null) {
                     sender.sendMessage(ChatColor.RED + "The player you specified is not online");

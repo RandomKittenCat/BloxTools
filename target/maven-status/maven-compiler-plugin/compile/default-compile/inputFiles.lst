@@ -3,11 +3,14 @@ C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\gmsp.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\spawnmob.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\repair.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\ping.java
+C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\hat.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\weather.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\checktime.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\heal.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\kill.java
+C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\smite.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\broadcast.java
+C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\clearinv.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\coords.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\killall.java
 C:\ws\BloxTools\src\main\java\me\mrbloxman\bloxtools\commands\gms.java

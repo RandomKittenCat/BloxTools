@@ -106,3 +106,18 @@ commands:
     usage: /<command>
     permission: bloxtools.ping
     permission-message: "§cYou don't have permission to use this command!"
+  hat:
+    description: Put the current item in your hand in your helmet slot
+    usage: /<command>
+    permission: bloxtools.hat
+    permission-message: "§cYou don't have permission to use this command!"
+  clearinv:
+    description: Clear inventory of all items
+    usage: /<command> [user]
+    permission: bloxtools.clearinv
+    permission-message: "§cYou don't have permission to use this command!"
+  smite:
+    description: Smite someone with lightning
+    usage: /<command> <user>
+    permission: bloxtools.smite
+    permission-message: "§cYou don't have permission to use this command!"

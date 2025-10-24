@@ -30,6 +30,10 @@ public final class BloxTools extends JavaPlugin {
         Objects.requireNonNull(getCommand("killall")).setExecutor(new killall());
         Objects.requireNonNull(getCommand("broadcast")).setExecutor(new broadcast());
         Objects.requireNonNull(getCommand("whisper")).setExecutor(new whisper());
+        Objects.requireNonNull(getCommand("ping")).setExecutor(new ping());
+        Objects.requireNonNull(getCommand("hat")).setExecutor(new hat());
+        Objects.requireNonNull(getCommand("clearinv")).setExecutor(new clearinv());
+        Objects.requireNonNull(getCommand("smite")).setExecutor(new smite());
     }
 
     @Override
