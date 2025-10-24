@@ -3,7 +3,7 @@ target/BloxTools-1.0-SNAPSHOT-shaded.jar
 target/original-BloxTools-1.0-SNAPSHOT.jar
 
 # IntelliJ IDEA
-.idea/
+.idea/*
 !*.iml
 !.idea/modules.xml
 !.idea/compiler.xml
