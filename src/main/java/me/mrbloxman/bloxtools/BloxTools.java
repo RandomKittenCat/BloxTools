@@ -34,6 +34,8 @@ public final class BloxTools extends JavaPlugin {
         Objects.requireNonNull(getCommand("hat")).setExecutor(new hat());
         Objects.requireNonNull(getCommand("clearinv")).setExecutor(new clearinv());
         Objects.requireNonNull(getCommand("smite")).setExecutor(new smite());
+        Objects.requireNonNull(getCommand("workbench")).setExecutor(new workbench());
+        Objects.requireNonNull(getCommand("anvil")).setExecutor(new anvil());
     }
 
     @Override

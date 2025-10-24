@@ -19,7 +19,7 @@ public class gms implements CommandExecutor {
                 p.sendMessage(ChatColor.YELLOW + "Your gamemode has been set to survival");
             } else {
                 String playerName = args[0];
-                Player target = Bukkit.getServer().getPlayerExact(playerName);
+                Player target = Bukkit.getPlayerExact(playerName);
 
                 if (target == null) {
                     p.sendMessage(ChatColor.RED + "The player you specified is not online");

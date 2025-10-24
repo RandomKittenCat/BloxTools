@@ -121,3 +121,13 @@ commands:
     usage: /<command> <user>
     permission: bloxtools.smite
     permission-message: "§cYou don't have permission to use this command!"
+  workbench:
+    description: Open a portable workbench menu
+    usage: /<command>
+    permission: bloxtools.workbench
+    permission-message: "§cYou don't have permission to use this command!"
+  anvil:
+    description: Open a portable anvil menu
+    usage: /<command>
+    permission: bloxtools.anvil
+    permission-message: "§cYou don't have permission to use this command!"

@@ -19,7 +19,7 @@ public class heal implements CommandExecutor {
             } else {
 
                 String playerName = args[0];
-                Player target = Bukkit.getServer().getPlayerExact(playerName);
+                Player target = Bukkit.getPlayerExact(playerName);
 
                 if (target == null) {
                     p.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "The player you specified is not online");

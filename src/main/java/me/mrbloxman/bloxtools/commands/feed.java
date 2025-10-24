@@ -19,7 +19,7 @@ public class feed implements CommandExecutor {
                 p.sendMessage(ChatColor.YELLOW + "You have restored your hunger bar");
             } else {
                 String playerName = args[0];
-                Player target = Bukkit.getServer().getPlayerExact(playerName);
+                Player target = Bukkit.getPlayerExact(playerName);
 
                 if (target == null) {
                     p.sendMessage(ChatColor.RED + "" + ChatColor.BOLD + "That player is not online.");

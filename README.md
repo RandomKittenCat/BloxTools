@@ -30,6 +30,9 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   > `/weather` sets the weather of the world <br />
   > `/whisper` sends a private message to another player <br />
   > `/ping` gets your ping! (obviously) <br />
+  > `/hat` sets your current held item to your helmet slot <br />
+  > `/clearinv` clears your (or the player specified) inventory <br />
+  > `/smite` smites the player provided with a lightning strike <br />
 
 <br />
 
