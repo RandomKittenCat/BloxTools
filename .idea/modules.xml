@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BloxTools.iml" filepath="$PROJECT_DIR$/BloxTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BloxTools.iml" filepath="$PROJECT_DIR$/.idea/BloxTools.iml" />
     </modules>
   </component>
 </project>
