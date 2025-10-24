@@ -8,12 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/BloxTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/BloxTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/feed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/feed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/gmsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/heal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/heal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/kill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/mrbloxman/bloxtools/commands/kill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

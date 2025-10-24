@@ -33,6 +33,9 @@ Minecraft plugin to add some cool commands to your server just like essentials!
   > `/hat` sets your current held item to your helmet slot <br />
   > `/clearinv` clears your (or the player specified) inventory <br />
   > `/smite` smites the player provided with a lightning strike <br />
+  > `/workbench` opens a portable workbench menu
+  > `/anvil` opens a portable anvil menu
+  > `/suicide` kills your own player
 
 <br />
 
